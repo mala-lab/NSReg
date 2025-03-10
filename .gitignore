@@ -1,0 +1,4 @@
+.vscode/*
+__pycache__/
+ckpt/mag_cs/*
+.DS_Stor
