@@ -20,11 +20,11 @@ Detailed usage instructions and examples will be included upon code release.
 If you find this work useful in your research, please consider citing:
 
 ```bibtex
-@misc{wang2024nsreg,
-      title={Open-Set Graph Anomaly Detection via Normal Structure Regularisation}, 
-      author={Qizhou Wang and Guansong Pang and Mahsa Salehi and Xiaokun Xia and Christopher Leckie},
-    booktitle = {International Conference on Learning Representations (ICLR)},
-      year={2025},
+@inproceedings{wang2024nsreg,
+  title={Open-Set Graph Anomaly Detection via Normal Structure Regularisation}, 
+  author={Qizhou Wang and Guansong Pang and Mahsa Salehi and Xiaokun Xia and Christopher Leckie},
+  booktitle = {International Conference on Learning Representations (ICLR)},
+  year={2025},
 }
 ```
 
