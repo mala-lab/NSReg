@@ -1,4 +1,4 @@
-# Normal Structure Regularisation (NSReg) for GAD (ICLR 2025)
+# Normal Structure Regularisation for Open-set Supervised GAD (ICLR 2025)
 
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) 
 [![arXiv](https://img.shields.io/badge/NSReg-2310.08041-b31b1b.svg)](https://arxiv.org/abs/2311.06835)
