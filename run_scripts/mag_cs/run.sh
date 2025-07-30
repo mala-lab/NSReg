@@ -10,10 +10,10 @@ source ~/.bashrc
 
 # cd wd to the project root
 
-# cd <to your working directory>
 
+cd <to your working directory>
 source activate sagad
-MAIN="#<change to project root dir>/exp/${1}.py"
+MAIN="./exp/${1}.py"
 WORK_DIR= # set to the project root dir
 
 echo "running ${MAIN}"

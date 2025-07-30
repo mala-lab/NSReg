@@ -16,6 +16,8 @@ conda env create -f env.yml
 ```
 
 ## Usage
+Please downlaod the dataset and set the path in exp/config/mag_cs/dset.yaml before running the code.
+
 Please use the following script to run the training code:
 
 ```bash
