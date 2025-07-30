@@ -9,7 +9,8 @@ source ~/.bashrc
 # module load cuda/11.3
 
 # cd wd to the project root
-cd /media/nvme1/pycharm_mirror/nsreg_release
+
+# cd <to your working directory>
 
 source activate sagad
 MAIN="#<change to project root dir>/exp/${1}.py"
