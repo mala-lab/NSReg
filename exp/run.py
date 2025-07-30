@@ -39,7 +39,7 @@ def do_exp(graph, labels, dset_info, mode="single", tau_lower=0.00, tau_upper=0.
 
 def run():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--proj_dir", type=str, default=<set to project directory>)
+    parser.add_argument("--proj_dir", type=str, default=".")
     parser.add_argument("--meta_config_fn", type=str, default="mag_cs") # set to data names 
     parser.add_argument("--config_dir", type=str, default="mag_cs") # set to data names 
     parser.add_argument("--seed", type=int, default=42)

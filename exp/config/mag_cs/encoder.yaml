@@ -1,0 +1,5 @@
+encoder_type: sage
+input_dim: 6805
+hidden_dim: 64
+ebd_dim: 64
+n_layers: 2

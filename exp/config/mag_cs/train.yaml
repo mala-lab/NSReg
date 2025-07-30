@@ -1,0 +1,60 @@
+drop_out: 0.5
+lr: 1.0e-03
+clf_lr: 1.0e-03
+lbl_lr: 1.0e-03
+weight_decay: 0.0
+optimiser: adam
+n_epochs: 201
+fs: True
+fs_ratio: 0.05
+num_train_anomaly: 50
+use_recorded_split: True
+split_fn: split_50.pkl
+contaminated: False
+
+# [bce, focal, dev]s
+clf_loss: bce
+lbl_loss: bce
+loss: bce
+
+reweight: True
+n_heads: 8
+fcn_dim: 32
+tau: 0.05
+n_workers: 16
+
+# Whether to train the labeller
+train_labeller: True
+
+# ckpt
+out_dir: "./ckpt/mag_cs"
+save_every: 100
+
+# output dir
+plot_dir: # set to plot dir
+plot_every: 100
+
+# Evaluation
+eval_every: 10
+
+# labeller
+fuse_weight: False
+normalise_edge: True
+sigmoid: False
+scaler: 1
+scale_trainable: True
+ckpt_ts: null 
+ckpt_e: 200
+oversample: False
+use_batch: True
+augment: null # needed for plot only
+edge_aug: False
+ckpt_dir: # needed for plot only
+edge_sample_mode: original
+
+mode: run
+
+nnu_alpha: 0.8
+tau_lower: 0.00
+tau_upper: 0.05
+lbl_lambda: 1.0

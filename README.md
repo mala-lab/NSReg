@@ -8,13 +8,20 @@ This is the offical Pytorch Implementation of ICLR 2025 paper Open-Set Graph Ano
 By Qizhou Wang, Guansong Pang, Mahsa Salehi, Xiaokun Xia, Christopher Leckie.
 
 ## Requirements
-*Code will be uploaded shortly*
+Please see the env.yml file.
 
 ## Installation
-Instructions for installation will be provided along with the code.
+```
+conda env create -f env.yml
+```
 
 ## Usage
-Detailed usage instructions and examples will be included upon code release.
+Please use the following script to run the training code:
+
+```bash
+# bash <run_script_name> <mode> <meta_config_name>
+bash run_scripts/mag_cs/run.sh run meta_mag_cs
+```
 
 ## 📝 Citation
 If you find this work useful in your research, please consider citing:

@@ -1,0 +1,3 @@
+ckpt_epoch: 200
+load_dir: null # set to the check point
+

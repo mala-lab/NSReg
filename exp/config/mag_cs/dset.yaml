@@ -1,0 +1,3 @@
+dset_fn: # path to your ms_academic_cs.npz
+dset_name: mag_cs
+saved_idx_dir: ./saved_index/mag_cs

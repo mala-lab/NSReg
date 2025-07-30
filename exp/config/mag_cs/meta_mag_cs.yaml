@@ -1,0 +1,5 @@
+dset_config: "./exp/config/mag_cs/dset.yaml"
+sample_config: "./exp/config/mag_cs/sampler.yaml"
+encoder_config: "./exp/config/mag_cs/encoder.yaml"
+train_config: "./exp/config/mag_cs/train.yaml"
+exp_config: "./exp/config/mag_cs/exp.yaml"
